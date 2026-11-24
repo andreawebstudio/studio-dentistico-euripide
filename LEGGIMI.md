@@ -20,7 +20,7 @@ Sito statico (HTML + CSS + JS vanilla, nessuna libreria). Si pubblica caricando 
 6. **Recensioni**: la sezione "Cosa dicono di noi" è omessa (mancano recensioni autentiche con approvazione alla pubblicazione).
 
 ## Fotografie
-La foto hero e i ritratti del team sono stati forniti dallo studio. Le immagini dei servizi sono fotografie illustrative da Unsplash (licenza Unsplash, uso commerciale gratuito), segnalate sul sito come "immagine illustrativa". Non ritraggono lo studio né i suoi professionisti.
+La foto hero e i ritratti del team sono stati forniti dallo studio. Le immagini dei servizi sono fotografie illustrative da Unsplash (licenza Unsplash, uso commerciale gratuito); sono indicate come illustrative nel testo alternativo delle immagini. Non ritraggono lo studio né i suoi professionisti.
 
 ## Privacy
 - Google Maps si carica solo dopo il clic su "Mostra la mappa".
