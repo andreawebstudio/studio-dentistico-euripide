@@ -1,0 +1,5 @@
+# Prima della pubblicazione sostituire DOMINIO-DEFINITIVO con il dominio reale
+User-agent: *
+Allow: /
+
+Sitemap: https://DOMINIO-DEFINITIVO/sitemap.xml

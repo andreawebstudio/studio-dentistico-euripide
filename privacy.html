@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy e Cookie Policy | Studio Dentistico Euripide</title>
+  <meta name="description" content="Informativa privacy e cookie policy del sito dello Studio Dentistico Euripide, Marsala.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Bozza da sottoporre alla verifica dello studio e del proprio consulente privacy prima della pubblicazione. -->
+  <header class="site-header is-scrolled">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Torna alla home dello Studio Dentistico Euripide">
+        <span class="logo-crop"><img src="assets/img/logo-euripide.webp" width="2000" height="668" alt="Dott. Gaspare Euripide — Studio Dentistico"></span>
+      </a>
+      <a href="index.html" class="btn btn-secondary btn-sm" style="margin-left:auto">Torna al sito</a>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="container">
+      <p class="eyebrow">Informative</p>
+      <h1>Privacy e Cookie Policy</h1>
+      <p class="updated">Informativa ai sensi degli artt. 13 e 14 del Regolamento (UE) 2016/679 (GDPR)</p>
+
+      <h2 id="privacy">Informativa privacy</h2>
+
+      <h3>Titolare del trattamento</h3>
+      <p>Studio Dentistico Euripide — Dott. Gaspare Euripide<br>
+      Via Roma 111, 91025 Marsala (TP)<br>
+      Telefono: <a href="tel:+393273498199">327 3498199</a>
+      <span id="legal-extra"></span></p>
+
+      <h3>Dati trattati</h3>
+      <ul>
+        <li><strong>Dati di navigazione</strong>: i sistemi che ospitano il sito acquisiscono, per il solo funzionamento tecnico, alcuni dati (ad esempio indirizzo IP, tipo di browser, data e ora della richiesta), conservati per il tempo strettamente necessario alla sicurezza del servizio.</li>
+        <li><strong>Dati forniti volontariamente</strong>: qualora sia attivo il modulo di contatto, nome e cognome, numero di telefono, email, servizio di interesse ed eventuale messaggio. Ti chiediamo di non comunicare informazioni sanitarie o dati clinici attraverso il sito.</li>
+      </ul>
+
+      <h3>Finalità e base giuridica</h3>
+      <p>I dati forniti sono utilizzati esclusivamente per rispondere alle richieste di informazioni e per concordare un appuntamento, sulla base di misure precontrattuali adottate su richiesta dell'interessato (art. 6, par. 1, lett. b, GDPR). I dati di navigazione sono trattati sulla base del legittimo interesse al corretto funzionamento e alla sicurezza del sito (art. 6, par. 1, lett. f, GDPR).</p>
+
+      <h3>Conservazione</h3>
+      <p>I dati sono conservati per il tempo necessario a gestire la richiesta e, successivamente, per il periodo previsto dagli obblighi di legge eventualmente applicabili.</p>
+
+      <h3>Destinatari</h3>
+      <p>I dati possono essere trattati da fornitori di servizi tecnici (hosting ed eventuale servizio di inoltro del modulo), nominati ove necessario responsabili del trattamento. I dati non sono diffusi.</p>
+
+      <h3>Diritti dell'interessato</h3>
+      <p>Puoi esercitare in qualsiasi momento i diritti previsti dagli artt. 15–22 del GDPR (accesso, rettifica, cancellazione, limitazione, portabilità, opposizione) contattando il Titolare ai recapiti indicati. Hai inoltre il diritto di proporre reclamo al Garante per la protezione dei dati personali (<a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">www.garanteprivacy.it</a>).</p>
+
+      <h2 id="cookie">Cookie policy</h2>
+      <p>Questo sito <strong>non utilizza cookie di profilazione né strumenti di analisi statistica</strong>. I caratteri tipografici sono ospitati direttamente sul sito, senza richieste a servizi esterni.</p>
+      <h3>Contenuti di terze parti</h3>
+      <ul>
+        <li><strong>Google Maps</strong>: la mappa nella sezione “Dove siamo” viene caricata solo se scegli di visualizzarla, premendo “Mostra la mappa”. Da quel momento Google può impostare cookie propri, secondo la <a href="https://policies.google.com/privacy?hl=it" target="_blank" rel="noopener">privacy policy di Google</a>.</li>
+        <li><strong>Instagram e TikTok</strong>: i link ai profili social aprono le piattaforme esterne, che applicano le proprie informative.</li>
+      </ul>
+      <p>Puoi gestire o eliminare i cookie in qualsiasi momento dalle impostazioni del tuo browser.</p>
+
+      <p style="margin-top:48px;text-align:center"><a href="index.html" class="btn btn-primary">Torna al sito</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-legal" style="margin-top:0;border-top:0;padding-top:0">
+      <p id="legal-info" class="legal-info" hidden></p>
+      <p class="footer-bottom"><span>© <span id="year">2026</span> Studio Dentistico Euripide</span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/site-config.js"></script>
+  <script>
+    (function () {
+      var c = window.SITE_CONFIG || {}, l = c.legal || {};
+      document.getElementById('year').textContent = new Date().getFullYear();
+      var extra = [];
+      if (l.ragioneSociale) extra.push(l.ragioneSociale);
+      if (l.partitaIva) extra.push('P.IVA ' + l.partitaIva);
+      if (l.pec) extra.push('PEC: ' + l.pec);
+      if (l.emailPrivacy) extra.push('Email privacy: ' + l.emailPrivacy);
+      if (extra.length) document.getElementById('legal-extra').innerHTML = '<br>' + extra.map(function (s) { return s.replace(/[<>&]/g, ''); }).join('<br>');
+      var p = [l.ragioneSociale, l.partitaIva && 'P.IVA ' + l.partitaIva, l.direttoreSanitario && 'Direttore Sanitario: ' + l.direttoreSanitario, l.iscrizioneAlbo].filter(Boolean);
+      if (p.length) { var el = document.getElementById('legal-info'); el.textContent = p.join(' · '); el.hidden = false; }
+    })();
+  </script>
+</body>
+</html>
